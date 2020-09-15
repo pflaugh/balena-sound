@@ -2,10 +2,12 @@
 
 Getting started with balenaSound is as simple as deploying it to a [balenaCloud](https://balena.io/cloud) application; no additional configuration is required (unless you're using a DAC HAT).
 We've outlined the installation steps below. If you want a step-by-step tutorial on how to get balenaSound up and running, feel free to check these blog posts:
+
 - [Turn your old speakers or Hi-Fi into Bluetooth, Airplay and Spotify receivers with a Raspberry Pi and this step-by-step guide](https://www.balena.io/blog/turn-your-old-speakers-or-hi-fi-into-bluetooth-receivers-using-only-a-raspberry-pi/)
 - [Build your own multi-room audio system with Bluetooth, Airplay, and Spotify using Raspberry Pis](https://www.balena.io/blog/diy-raspberry-pi-multi-room-audio-system/)
 
 ## Hardware required
+
 ![](https://raw.githubusercontent.com/balenalabs/balena-sound/master/docs/images/hardware.jpeg)
 
 * Any device from our [supported devices list](../docs/device-support#recommended). For the best experience, we recommend using a Raspberry Pi 3B+ or 4B.
@@ -48,7 +50,6 @@ This is the traditional and more advanced approach for deploying applications to
 
 For example, if you don't plan on using the Spotify integration, you can edit the `docker-compose.yml` file and remove the Spotify service before deploying the application.
 
-
 ### Provision your device
 
 1. Sign up for or login to the [balenaCloud dashboard](https://dashboard.balena-cloud.com)
@@ -56,7 +57,6 @@ For example, if you don't plan on using the Spotify integration, you can edit th
 1. Add a device to the application, enabling you to download the OS
 1. Flash the downloaded OS to your SD card with [balenaEtcher](https://balena.io/etcher)
 1. Power up your device and check it's online in the dashboard
-
 
 ### Deploy the application
 
