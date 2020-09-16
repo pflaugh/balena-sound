@@ -1,4 +1,31 @@
 - commits:
+    - subject: fix docs build
+      hash: 95c9a8c88b3c97a0f6348f40ed4bf93f451d5ef6
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Alex
+      nested: []
+    - subject: Make the markdown files look more standard
+      hash: 6179ad7600dce0b5cee2333d62724959a1a06ab8
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: AlexProgrammerDE
+      nested: []
+    - subject: Minor documentation tweaks
+      hash: fa7f7867cfaa4b72f979b650c5c0108bfed2fffd
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: AlexProgrammerDE
+      nested: []
+  version: 3.0.1
+  date: 2020-09-16T19:32:43.750Z
+- commits:
     - subject: 'balenaSound 3.0: use balena blocks'
       hash: 61e50b3831c5065e06898fc17390572a893cc6d8
       body: >
