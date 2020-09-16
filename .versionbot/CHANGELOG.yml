@@ -1,4 +1,17 @@
 - commits:
+    - subject: 'meta: Use balenablocks images instead of balenaplayground'
+      hash: 87ad8d39bc7d19d59fd98167cae3454ac626b127
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Tomás Migone <tomas@balena.io>
+        signed-off-by: Tomás Migone <tomas@balena.io>
+      author: Tomás Migone
+      nested: []
+  version: 3.0.2
+  date: 2020-09-16T20:41:34.610Z
+- commits:
     - subject: Update logo dir in README
       hash: fc9a34142561871f8ca128ba72fc90e137b3c3c6
       body: ''
