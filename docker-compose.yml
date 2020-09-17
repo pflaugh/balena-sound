@@ -68,12 +68,10 @@ services:
       - 49494:49494
       
   plexamp:
-    container_name: plexamp
     build: ./plugins/plexamp-rpi-docker-master/
-    image: plexamp:v2.0.0b2
 #    devices:
 #      - "/dev/snd:/dev/snd"
+    network_mode: host
     volumes:
       - "./plugins/plexamp-rpi-docker-master/server.json:/root/.config/Plexamp/server.json"
-    network_mode: host
-    restart: unless-stopped
+
